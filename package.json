@@ -1,0 +1,21 @@
+{
+  "name": "mist-gps-node",
+  "version": "0.0.2",
+  "author": "André Kaustell <andre.kaustell@controlthings.fi>",
+  "description": "Mist sample implementation of a dummy GPS receiver using mist-api.",
+  "main": "src/mist-gps.js",
+  "dependencies": {
+    "mist-api": "0.0.12"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://wish.cto.fi:/git/mist-node/mist-gps-node#master"
+  },
+  "bin": {
+    "mist-gps": "./bin/mist-gps"
+  },
+  "scripts": {
+    "test": "istanbul cover --hook-run-in-context _mocha -- -R spec"
+  }
+}
