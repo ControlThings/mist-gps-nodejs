@@ -10,7 +10,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+ssh://wish.cto.fi:/git/mist-node/mist-gps-node#master"
+    "url": "https://github.com/ControlThings/mist-gps-nodejs.git#master"
   },
   "bin": {
     "mist-gps": "./bin/mist-gps"
