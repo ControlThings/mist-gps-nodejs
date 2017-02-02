@@ -7,7 +7,7 @@ function Gps() {
     this.deviceData = {};
 
     function update() {
-        self.emit('update', { lat: 60.404 + Math.sin(Date.now()/600000)*0.01, lon: 25.681 + Math.cos(Date.now()/600000)*0.01, accuracy: 10 });
+        self.emit('update', { lat: 60.4042 + Math.sin(Date.now()/10000)*0.0002, lon: 25.6814 + Math.cos(Date.now()/10000)*0.0005, accuracy: 10 });
     }
 
     setInterval(update, 5000);
