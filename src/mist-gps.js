@@ -7,12 +7,14 @@ var mist = new Mist({ name: model.device });
 // callback 
 mist.write(function(epid, data) {
     console.log("mist write:", epid, data);
+    
+    if(epid==='counter') { c = data; }
 });
 
 // callback 
 mist.invoke('config', function(data, cb) {
     console.log("mist invoke:", data);
-    cb({ here: "you", go: true });
+    cb({ here: "you", go: true, echo: data });
 });
 
 mist.create(model);
