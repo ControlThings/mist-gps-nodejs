@@ -5,7 +5,7 @@
   "description": "Mist sample implementation of a dummy GPS receiver using mist-api.",
   "main": "src/mist-gps.js",
   "dependencies": {
-    "mist-api": "0.0.12"
+    "mist-api": "0.0.18"
   },
   "license": "Apache-2.0",
   "repository": {
