@@ -1,6 +1,6 @@
 {
   "name": "mist-gps-node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "André Kaustell <andre.kaustell@controlthings.fi>",
   "description": "Mist sample implementation of a dummy GPS receiver using mist-api.",
   "main": "src/mist-gps.js",
