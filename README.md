@@ -1,5 +1,9 @@
 # Mist GPS 
 
+*This project is no longer maintained. Required dependencies may no longer be available.*
+
+*See: mist-examples-nodejs (https://github.com/ControlThings/mist-examples-nodejs)*
+
 This is bleeding egde software and WILL BREAK from time to time, you have been warned.
 
 This package is dependent on the mist-api package, which currently is working with Linux x64, OSX x64 and Raspberry Pi, on nodejs v6.x only. To get it working you also need to run a Wish Core on the same host.
